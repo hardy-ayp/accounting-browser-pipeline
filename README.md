@@ -176,7 +176,19 @@ The AI agent will automatically follow the step-by-step procedures outlined in [
 
 ---
 
-## ⚖️ License & Integrity Policy
+## ⚖️ License, Attribution & Ethical Guidelines
 
-* **Code License:** Permissive Open Source License. See [LICENSE](LICENSE) for details.
+### Permissive Code License
+* **Code License:** Permissive Open Source License. See [LICENSE](LICENSE) for full legal text.
 * **Integrity Mandate:** AI agents and contributors must strictly adhere to the [Anti-Fabrication Manifesto](docs/anti-fabrication-manifesto.md).
+
+### Trademarks & Nominative Fair Use
+All product names, logos, brands, and registered trademarks mentioned in this repository (such as Lightpanda, Google Chrome, Microsoft Edge, Microsoft Excel, MySQL, PostgreSQL, Python) are the property of their respective owners. Their mention in this project is strictly for identification, interoperability, technical compatibility, and educational reference under the legal doctrine of **Nominative Fair Use**. 
+
+This repository is an independent open-source project and is **not** affiliated, associated, authorized, endorsed by, or in any way officially connected with Lightpanda, Google, Microsoft, Oracle, or any of their subsidiaries or affiliates.
+
+### Architecture & License Compliance
+* **Browser-Agnostic Protocol**: This project implements an independent Python orchestration client that interacts exclusively over open, standard network interfaces (Chrome DevTools Protocol - CDP via WebSocket at `ws://127.0.0.1:9222`). It does not bundle, vendor, or modify any internal source code, binaries, or AGPL-licensed core components of Lightpanda.
+* **Flexible Runtimes**: Users and AI agents are free to connect this pipeline to any CDP-compliant browser of their choice, including standard Google Chrome, Microsoft Edge, Chromium, Playwright, or Lightpanda.
+* **Ethical Automation**: This tool is designed exclusively for authorized accounting reconciliation, ledger auditing, and internal operational data processing. Users are strictly responsible for complying with the terms of service, access policies, and data privacy regulations (such as GDPR and local privacy laws) of the systems they interact with.
+* **Zero Data Fabrication**: This project rejects the generation of artificial balancing figures (*plug-in residuals*). Financial audits and reports generated through this pipeline must remain factual, verifiable, and evidence-based at all times.
