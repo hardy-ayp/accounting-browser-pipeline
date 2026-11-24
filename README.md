@@ -1,6 +1,6 @@
 # Autonomous Enterprise Accounting & Browser Automation Pipeline
 
-[![CI Pipeline](https://github.com/placeholder-org/accounting-browser-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/placeholder-org/accounting-browser-pipeline/actions)
+[![CI Pipeline](https://github.com/hardy-ayp/accounting-browser-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/hardy-ayp/accounting-browser-pipeline/actions)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: Permissive](https://img.shields.io/badge/License-Permissive-green.svg)](LICENSE)
 [![AI Agent Ready](https://img.shields.io/badge/Agent%20Skill-SKILL.md-purple.svg)](SKILL.md)
@@ -113,7 +113,7 @@ accounting-browser-pipeline/
 ### 1. Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/your-org/accounting-browser-pipeline.git
+git clone https://github.com/hardy-ayp/accounting-browser-pipeline.git
 cd accounting-browser-pipeline
 pip install -r requirements.txt
 ```
